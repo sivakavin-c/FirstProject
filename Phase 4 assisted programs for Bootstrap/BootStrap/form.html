@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            
+            <form action="sumit.php">
+                <div class="form-group">
+                    <label for="email">Email id:</label>
+                    <input type="text" id="email" placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="text" id="password" placeholder="Enter your password">
+                </div>
+
+                <div class="form-group">
+                    <label for="upload">Choose file:</label>
+                    <input type="file" id="upload">
+                </div>
+
+                <div class="form-group">
+                    <label for="radio">Age 20 to 40:</label>
+                    <input type="radio" id="radio">
+                </div>
+
+                <div class="form-group">
+                    <label for="radio">Age above 40:</label>
+                    <input type="radio" id="radio">
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                             <div class="form-group">
+                                <select class="form-control form-control-lg">
+                                    <option>Large Select</option>
+                                </select>
+
+                                <select class="form-control">
+                                    <option>Defaut Select</option>
+                                </select>
+
+                                <select class="form-control form-control-sm">
+                                    <option>Small Select</option>
+                                </select>
+                               
+                             </div>
+                        </div>
+            </form>
+        </div>
+        </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
