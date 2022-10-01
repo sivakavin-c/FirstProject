@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="40.828">
+  <properties />
+  
+  
+            <testcase name="FlipcartLoginTest" time="40.828" classname="com.AutomateWebApp2.demo.LoginTest" />
+      
+</testsuite>
